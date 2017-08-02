@@ -1,0 +1,18 @@
+img {
+  width: 50%;
+}
+
+.left {
+  float: left;
+  width: 50%;
+}
+.right {
+  float: right;
+  width: 50%;
+}
+
+.group:after {
+  content: '';
+  display: table;
+  clear: both;
+}
